@@ -126,7 +126,7 @@ python lambda_function.py
 
 ## Deployment Notes
 
-- Lambda runtime: Python 3.12
+- Lambda runtime: Python 3.14
 - The `requests` library is packaged as a Lambda Layer since it is not included in the default Lambda environment
 - The OpenAQ API key is stored as a Lambda environment variable, not in the code
 - DynamoDB uses `date` (YYYY-MM-DD) as the partition key
