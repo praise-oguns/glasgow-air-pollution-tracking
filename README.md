@@ -12,6 +12,15 @@ Air quality data is publicly available but almost completely inaccessible to ord
 
 ---
 
+## Why I Built This
+Air pollution is one of the most underreported public health issues in the UK. Glasgow consistently ranks among the worst cities in Scotland for air quality, yet the data that exists is buried in government databases full of raw numbers that most people cannot interpret.
+I wanted to build something that solves a real problem for real people. A runner deciding whether to train outside. A parent wondering if their child should play in the garden. Someone with asthma trying to plan their day. None of these people should need to understand what 87 µg/m³ of ozone means. They just need a clear answer.
+This project takes publicly available pollution data from a UK government monitoring station, runs it through official DEFRA health guidelines, and returns a single plain English verdict with actionable advice. It updates itself automatically every three hours and sends email alerts when conditions become dangerous.
+The sustainability angle matters here too. Environmental monitoring is one of the most important applications of cloud infrastructure right now. Councils, public health agencies, and climate-focused organisations are all investing in exactly this kind of real-time data pipeline. This project was built with that context in mind, not just as a technical exercise.
+I chose Glasgow specifically because it is a city with a documented air quality problem and a population that deserves better access to information that directly affects their health.
+
+---
+
 ## What It Does
 
 - Fetches live pollution readings from Glasgow Townhead, an official UK national monitoring station
