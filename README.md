@@ -147,3 +147,6 @@ python lambda_function.py
 ## Built With
 
 Python, AWS Lambda, AWS DynamoDB, AWS S3, AWS CloudFront, AWS EventBridge, AWS SNS, AWS API Gateway, OpenAQ v3 API
+
+Built by Praise Oguns as a cloud portfolio project.
+Linkedin: www.linkedin.com/in/praise-oguns
