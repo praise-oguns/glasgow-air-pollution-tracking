@@ -71,6 +71,7 @@ def overall_rating(readings):
     return worst
 
 
+
 def fetch_glasgow_data():
     """Calls the OpenAQ API and returns a dict of pollutant readings.
     Returns None if the request fails for any reason."""
