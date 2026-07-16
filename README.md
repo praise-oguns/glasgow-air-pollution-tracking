@@ -6,7 +6,7 @@ Live site: [www.glasgowairquality.co.uk](https://www.glasgowairquality.co.uk)
 
 ---
 
-## The Problem
+## What problem does this solve
 
 Air quality data is publicly available but almost completely inaccessible to ordinary people. The raw numbers mean nothing to someone deciding whether to go for a run or let their kids play outside. This project takes that data and turns it into a single, clear answer.
 
